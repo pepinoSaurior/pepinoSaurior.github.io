@@ -7,7 +7,7 @@ body{
 
 main{
     max-width: 1200px;
-    margin: 3px auto;
+    margin: 3rem auto;
 }
 
 header{
@@ -39,4 +39,39 @@ nav a{
 
 hr{
     visibility: hidden;
+}
+
+.flotaderecha{
+    float: right;
+}
+
+.flotaizquierda{
+    float: left;
+}
+
+
+img{
+    margin: 0.5rem;
+}
+
+article{
+    margin-top: 8rem;
+}
+
+footer{
+    border-top: 3px solid limegreen;
+    background-color: rgb(11, 99, 155);
+    height: 20rem;
+}
+
+#listapie{
+    max-width: 1200px;
+    margin: 3rem auto;
+}
+
+#listapie a{
+    text-decoration: none;
+    color: #624112; 
+    font-size: larger;
+    margin-left: 2rem;
 }
