@@ -30,7 +30,7 @@ a{
 
 #alinear{
     height: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0px auto;
     display: flex;
     align-items: center;
@@ -87,4 +87,8 @@ footer{
     float: left;
     width: 400px;
     margin: 2rem;
+}
+
+marquee{
+    font-size: 1.7rem;
 }
