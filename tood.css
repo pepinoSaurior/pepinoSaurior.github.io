@@ -89,6 +89,6 @@ footer{
     margin: 2rem;
 }
 
-marquee{
-    font-size: 1.7rem;
+.listapie>h2{
+    font-size: larger;
 }
