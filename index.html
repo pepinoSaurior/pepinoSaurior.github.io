@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Aitor, Inma, Richard y Tomas">
+    <meta name="author" content="Tomas">
     <meta name="description" content="El trabajo ese de Sistemas Informaticos">
-    <title>Windows 11</title>
-    <link rel="icon" href="img/favicon.png" type="image/png">
+    <title>Redes Cliente Servidor</title>
     <link rel="stylesheet" href="tood.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,43 +17,82 @@
         <div id="alinear">
             <a href="index.html"><img src="img/logo.png" alt="Ventana" id="logo"></a>
             <nav>
-                <a href="historia.html">Historia</a>
-                <a href="caracteristicas.html">Características</a>
-                <a href="aplicaciones.html">Aplicaciones</a>
-                <a href="shell.html">Interfaz de Comandos</a>
-                <a href="problemas.html">Problemas</a>
-                <a href="actualizaciones.html">Actualizaciones y soporte</a>
+                <a href="historia.html">Partes</a>
+                <a href="caracteristicas.html">Comparación</a>
+                <a href="aplicaciones.html">Ejemplos</a>
             </nav>
         </div>
     </header>
     <main>
         <article>
-            <h1>Introducción</h1>
-            <h2>Descripción general de la investigación</h2>
-            <p>La presente investigación se refiere al tema del Sistema Operativo Windows 11, que se puede definir como la  versión más reciente del sistema operativo Windows desarrollado por Microsoft, además de ser el sucesor de la anterior versión del sistema operativo, Windows 10, lanzado en 2015.</p>
+            <h1>Característica</h1>
+            <h2>¿Qué són?</h2>
+            <p>
+                Desde el punto de vista funcional, se puede definir la computación Cliente/Servidor como
+                una arquitectura distribuida que permite a los usuarios finales obtener acceso a la
+                información en forma transparente aún en entornos multiplataforma.
+            </p>
+            <p>
+                La arquitectura cliente-servidor es un modelo de diseño de software en el que las tareas se reparten entre los proveedores de recursos o servicios,
+                 llamados servidores, y los demandantes, llamados clientes. Un cliente realiza peticiones a otro programa, el servidor, quien le da respuesta.
+            </p>
             <hr>
-            <h2>Distribución de la investigación</h2>
-            <p>La investión está dividida en las siguientes partes: </p>
-            <ul>
-                <li>Historia del SO Windows (realizada por Aitor Fernández Pérez)</li>
-                <li>Características del SO Windows 11 (realizada por María Inmaculada Montejano Seco)</li>
-                <li>Terminal/Shell/Consola/CLI (realizada por Jose Tomas Puertas Melguizo)</li>
-                <li>Actualizaciones y soporte de Windows 11 (realizada por Ricardo Romero Bustos)</li>
-                <li>Problemas del Sistema Operativo Windows 11 (realizada por Jose Tomas Puertas Melguizo)</li>
-                <li>Aplicaciones (realizada por Ricardo Romero Bustos)</li>
-            </ul>
+            <h2>Ventajas</h2>
+            <p>
+                Como ya habrás deducido, el modelo cliente/servidor está especialmente indicado en redes medias o grandes que necesiten un alto nivel de fiabilidad.
+            </p>
+            <p>
+                Las principales ventajas que ofrece son:
+            </p>
+            <dl>
+                <dt>Administración centrada en el servidor</dt>
+                <dd>- Los clientes tienen poca trascendencia en el esquema y sus necesidades de administración son menores</dd>
+                <dt>Centralización de los recursos</dt>
+                <dd>- Los recursos comunes a todos los usuarios se administran en el servidor. Así se evitan situaciones como la redundancia o inconsistencia de información en las bases de datos</dd>
+                <dt>Mejora de la seguridad</dt>
+                <dd>- Al disponer de un mecanismo central de autenticación, las posibilidades de acceso indebido se reducen considerablemente</dd>
+                <dt>Escalabilidad de la instalación</dt>
+                <dd>- Se pueden añadir o suprimir clientes sin que el funcionamiento de la red se vea afectado</dd>
+            </dl>
             <hr>
-            <h2>Disfruta</h2>
-            <p>Esperamos que sea de tu gusto, cualquier duda por favor no dudes en contactar con nosotros al siguiente mail: falsosoloparatrabajos@gmail.com</p>
+            <h2>Desventajas</h2>
+            <p>
+                Aunque, después de lo dicho hasta ahora parezca increíble,  una vaina loca, una infraestructura cliente/servidor también tiene sus inconvenientes:
+            </p>
+            <dl>
+                <dt>Coste elevado</dt>
+                <dd>- Tanto la instalación como el mantenimiento son más elevados debido al perfil muy técnico del lado servidor</dd>
+                <dt>Dependencia del servidor</dt>
+                <dd>- Toda la red está construida alrededor del servidor y si éste deja de funcionar o lo hace con un rendimiento inadecuado, afectará a toda la infraestructura</dd>
+            </dl>
+            <hr>
+            <h2>Evolución</h2>
+            <h3>Arquitecturas (C/S) monolíticas</h3>
+            <p>En la configuración cliente servidor un host mainframe y un terminal directamente conectado con el mainframe puede verse como un modelo C/S de una capa</p>
+            <h3>Arquitecturas C/S de dos capas</h3>
+            <p>El cliente se comunica con un servidor de bases de datos</p>
+            <p>La aplicación la tiene el cliente o el servidor de bases de datos en forma de procedimientos almacenados</p>
+            <p>El primer modelo C/S de dos capas se vio con las aplicaciones para redes LAN a finales de los 80 y principios de los 90</p>
+            <p>Estás aplicaciones se basaban en protocolos sencillos de compartición de archivos</p>
+            <h3>Arquitecturas C/S de tres capas</h3>
+            <p>En la arquitectura de tres capas el cliente presenta parte gráfica del programa y el servidor (o servidores) implementa la parte lógica y los datos</p>
+            <p>
+                Está arquitectura se caracteriza por las siguientes tres capas de componentes:
+                <dl>
+                    <dt>Una capa front-end</dt>
+                    <dd>- Es la responsable de implementar la parte gráfica</dd>
+                    <dt>Una capa back-end</dt>
+                    <dd>- Proporciona acceso a muchos servicios, como las bases de datos</dd>
+                    <dt>Una capa que hace las funciones de capa intermedia</dt>
+                    <dd>- Permite compartir y controlar la parte lógica mediante un aislamiento de aplicación (es un mecanismo de seguridad para separar las aplicaciones en ejecución)</dd>
+                </dl>
+            </p>
         </article>
     </main>
     <footer>
         <div id="listapie">
-            <h2>Trabajo Realizado por: </h2>
-            <h2>AITOR FERNÁNDEZ PÉREZ</h2>
-            <h2>MARÍA INMACULADA MONTEJANO SECO</h2>
-            <h2>RICARDO ROMERO BUSTOS</h2>
             <h2>JOSE TOMAS PUERTAS MELGUIZO</h2>
+            <h2>Como he reciclado la web del segundo trabajo</h2>
         </div>
     </footer>
 </body>

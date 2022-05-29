@@ -92,3 +92,21 @@ footer{
 .listapie>h2{
     font-size: larger;
 }
+
+#comparacion{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#comparacion td,th{
+    border: 1px solid black;
+}
+
+#comparacion th{
+    background-color: peru;
+    color: white;
+}
+
+#comparacion td:first-child{
+    background-color: lightskyblue;
+}
